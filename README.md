@@ -1,10 +1,11 @@
+
 # McKinsey Analytics Datahack 2018
 
 This is my code for Datahack 2018.
 
 It employs various modular classifiers including XGBoost, AdaBoost, SVM, 
 simple neural nets (MLPs), naive Bayes, and QDA.  These are trained individually
-and then ensembled in a weighted soft-voting approach.
+and then combined into a weighted soft-voting ensemble.
 
 Model params and ensemble weighting has been tuned to the dataset via grid
 search and some manual adjustment.
